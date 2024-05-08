@@ -1,4 +1,4 @@
-function kids_opm_test_func(sub,ses,project_dir)
+function AEC_connectivity_func(sub,ses,project_dir)
 restoredefaultpath
 cleaning_only = 0;
 fake_bad_ch =1;
