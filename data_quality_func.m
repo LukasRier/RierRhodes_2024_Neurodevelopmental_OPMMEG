@@ -9,7 +9,7 @@ run = 'run-001';
 data_quality.ID = sub;
 data_quality.task = 'braille';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-fieldtrip_path = ['R:\DRS-KidsOPM\Paediatric_OPM_Notts\fieldtrip-20220906'];
+fieldtrip_path = [project_dir,filesep,'fieldtrip-20220906'];
 if ~exist(fieldtrip_path,"dir")
     error("change 'fieldtrip_path' to valid path")
 else
